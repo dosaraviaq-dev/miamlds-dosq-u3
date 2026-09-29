@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#0d1117">
-    <title>NEURAL//LAB — IA, ML & Data Science</title>
+    <meta name="description" content="Laboratorio educativo de inteligencia artificial aplicada a Ingeniería de Sistemas: fundamentos, simulaciones y casos prácticos de software, datos y seguridad.">
+    <title>NEURAL//LAB — IA para Ingeniería de Sistemas</title>
     <style>
         :root {
             --bg: #0d1117;
@@ -869,7 +870,7 @@
     <canvas id="particles" aria-hidden="true"></canvas>
     <nav class="nav"><a class="brand" href="#inicio">NEURAL<b>//</b>LAB</a><button class="nav-toggle"
             aria-label="Abrir menú" id="menuBtn">☰</button>
-        <div class="navlinks" id="navlinks"><a href="#inicio">INICIO</a><a href="#ia">IA</a><a href="#ml">MACHINE
+        <div class="navlinks" id="navlinks"><a href="#inicio">INICIO</a><a href="#sistemas">SISTEMAS</a><a href="#ia">IA</a><a href="#ml">MACHINE
                 LEARNING</a><a href="#data">DATA SCIENCE</a><a href="#neural">REDES NEURONALES</a><a
                 href="#playground">PLAYGROUND</a><a href="#dashboard">DASHBOARD</a><a href="#terminal">TERMINAL</a>
         </div>
@@ -877,32 +878,97 @@
     <header class="hero" id="inicio">
         <div class="container hero-grid">
             <div>
-                <div class="eyebrow">Plataforma interactiva · v1.0</div>
+                <div class="eyebrow">Ingeniería de Sistemas · Laboratorio educativo</div>
                 <h1>INTELIGENCIA<br>ARTIFICIAL</h1>
-                <h2>Machine Learning · Data Science · Tecnologías emergentes</h2>
-                <p>Explora cómo las máquinas aprenden, interpretan datos y generan nuevas posibilidades. Una experiencia
-                    práctica para comprender las tecnologías que están transformando el mundo.</p>
-                <div class="actions"><a class="btn primary" href="#ia">Explorar IA ↘</a><a class="btn"
+                <h2>Aplicada a software, datos y seguridad</h2>
+                <p>Descubre cómo la inteligencia artificial se conecta con la Ingeniería de Sistemas. Explora conceptos,
+                    experimenta con simulaciones y aprende a plantear soluciones para problemas de software, gestión de datos
+                    y monitoreo de servicios.</p>
+                <div class="actions"><a class="btn primary" href="#sistemas">Explorar aplicaciones ↘</a><a class="btn"
                         href="#playground">Iniciar Playground ↗</a></div>
                 <div class="stats">
-                    <div class="stat"><strong data-count="128">0</strong><span>MODELOS ANALIZADOS</span></div>
-                    <div class="stat"><strong data-count="2.4" data-suffix="M">0</strong><span>DATOS PROCESADOS</span>
+                    <div class="stat"><strong>03</strong><span>CASOS DE SISTEMAS</span></div>
+                    <div class="stat"><strong>05</strong><span>PASOS DE PROYECTO</span>
                     </div>
-                    <div class="stat"><strong data-count="9842">0</strong><span>PREDICCIONES</span></div>
-                    <div class="stat"><strong data-count="37">0</strong><span>AMENAZAS DETECTADAS</span></div>
+                    <div class="stat"><strong>100%</strong><span>ENFOQUE EDUCATIVO</span></div>
+                    <div class="stat"><strong>WEB</strong><span>HTML · CSS · JS</span></div>
                 </div>
             </div>
             <div class="orb-wrap">
                 <div class="orb">
                     <div class="orb-core"></div>
                 </div>
-                <div class="float-label fl1">● SISTEMA ACTIVO</div>
-                <div class="float-label fl2">NEURAL ENGINE / OK</div>
-                <div class="float-label fl3">DATA STREAM 01</div>
+                <div class="float-label fl1">● LABORATORIO LOCAL</div>
+                <div class="float-label fl2">INGENIERÍA + IA</div>
+                <div class="float-label fl3">APRENDER / EXPERIMENTAR</div>
             </div>
         </div>
     </header>
     <main>
+        <section id="sistemas">
+            <div class="container">
+                <div class="section-head">
+                    <div class="eyebrow">Tu carrera · Aplicaciones prácticas</div>
+                    <h2>De un problema a una solución de sistemas</h2>
+                    <p>En Ingeniería de Sistemas integramos personas, procesos, software e infraestructura.
+                        La IA puede apoyar una solución cuando existen datos pertinentes y una forma clara de evaluar su utilidad.</p>
+                </div>
+                <div class="grid grid-3">
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">⌘</div>
+                        <h3>Mesa de ayuda inteligente</h3>
+                        <p><b>Problema:</b> clasificar manualmente solicitudes de soporte consume tiempo.
+                            <b>Propuesta:</b> usar el texto de tickets históricos para sugerir una categoría y el equipo responsable.</p>
+                        <span class="example">EVALUACIÓN · Comparar categorías sugeridas con las revisadas por soporte.</span>
+                        <span class="tag">Software</span><span class="tag">Lenguaje natural</span>
+                    </article>
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">◎</div>
+                        <h3>Monitoreo de servicios</h3>
+                        <p><b>Problema:</b> detectar a tiempo comportamientos inusuales en una aplicación.
+                            <b>Propuesta:</b> analizar latencia, errores y consumo de recursos para señalar eventos que requieren revisión.</p>
+                        <span class="example">EVALUACIÓN · Medir falsas alertas y eventos detectados con datos de prueba.</span>
+                        <span class="tag">Infraestructura</span><span class="tag">Anomalías</span>
+                    </article>
+                    <article class="card">
+                        <div class="icon" aria-hidden="true">▧</div>
+                        <h3>Calidad de datos</h3>
+                        <p><b>Problema:</b> registros duplicados o incompletos afectan los reportes.
+                            <b>Propuesta:</b> combinar validaciones de base de datos con detección de similitud para proponer registros a revisar.</p>
+                        <span class="example">EVALUACIÓN · Verificar duplicados identificados sin eliminar registros automáticamente.</span>
+                        <span class="tag">Bases de datos</span><span class="tag">Analítica</span>
+                    </article>
+                </div>
+                <div class="panel" style="margin-top:22px">
+                    <h3>Mini proyecto: clasificador de tickets de soporte</h3>
+                    <p class="muted">Reto de aprendizaje: diseñar un prototipo que sugiera si una solicitud corresponde a software,
+                        red o acceso. Empieza con tickets ficticios y conserva la revisión humana.</p>
+                    <ol class="muted">
+                        <li><b>Definir:</b> establecer categorías y qué necesita el equipo de soporte.</li>
+                        <li><b>Preparar:</b> crear ejemplos etiquetados, sin contraseñas ni datos personales.</li>
+                        <li><b>Construir:</b> diseñar una interfaz y comparar reglas por palabras clave con un clasificador.</li>
+                        <li><b>Evaluar:</b> reservar ejemplos de prueba y revisar aciertos y errores por categoría.</li>
+                        <li><b>Integrar:</b> mostrar la sugerencia, permitir su corrección y documentar los límites.</li>
+                    </ol>
+                    <a class="btn" href="#playground">Explorar la simulación de clasificación ↗</a>
+                    <p class="notice">El playground ilustra conceptos con datos sintéticos; no implementa este clasificador de tickets.</p>
+                </div>
+                <div class="panel" style="margin-top:22px">
+                    <h3>Breve descripción del proyecto</h3>
+                    <p class="muted">NEURAL//LAB permite explorar conceptos de inteligencia artificial aplicada a Ingeniería de Sistemas mediante contenidos y simulaciones interactivas.<br>
+                        Incluye ejemplos de predicción, redes neuronales y visualización de datos para facilitar el aprendizaje.<br>
+                        La IA (Codex) se utilizó como herramienta de apoyo para organizar contenidos, proponer el diseño y ayudar en la elaboración del código.<br>
+                        Está desarrollada con HTML, CSS y JavaScript; sus demostraciones funcionan localmente con datos simulados.</p>
+                    <h3>¿Cómo funciona la página?</h3>
+                    <p class="muted"><b>HTML</b> organiza el contenido, <b>CSS</b> define su apariencia y
+                        <b>JavaScript</b> hace funcionar los botones, controles y simulaciones. Al modificar un control
+                        o pulsar un botón, JavaScript actualiza los resultados y gráficos en el navegador.</p>
+                    <p class="notice">Las demostraciones funcionan en el navegador con reglas y datos simulados.
+                        No entrenan modelos ni se conectan a un servicio de IA. La revisión y comprensión del trabajo final
+                        corresponden al autor.</p>
+                </div>
+            </div>
+        </section>
         <section id="ia">
             <div class="container">
                 <div class="section-head">
@@ -1376,7 +1442,7 @@
     </main>
     <footer class="footer">
         <div class="container footer-inner"><span><b class="brand">NEURAL//LAB</b> · Plataforma
-                educativa</span><span>Autor: Dennis Oliver Saravia Quino · 2026</span><span>HTML · CSS · JavaScript ·
+                educativa · Ingeniería de Sistemas</span><span>Autor: Dennis Oliver Saravia Quino · 2026</span><span>HTML · CSS · JavaScript ·
                 Canvas</span><span>Aviso: demostraciones simuladas con fines educativos.</span></div>
     </footer>
     <script>
